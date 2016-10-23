@@ -9,4 +9,4 @@ patch -p1 < ../grsecurity-3.1-4.7.10-201610222037.patch
 
 make menuconfig
 make-kpkg clean
-make-kpkg --jobs=16 --initrd --revision=20161002 kernel_image
+make-kpkg --jobs=16 --initrd --revision=20161023 kernel_image
